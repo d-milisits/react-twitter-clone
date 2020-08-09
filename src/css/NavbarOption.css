@@ -1,0 +1,28 @@
+.navbarOption {
+  display:flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.navbarOption:hover {
+  background-color: #e8f5fe;
+  border-radius: 30px;
+  color: var(--twitter-color);
+  transition: color 90ms ease-out; 
+}
+
+/* Apply padding to all icons in component */
+.navbarOption > .MuiSvgIcon-root {
+  padding: 20px;
+}
+
+.navbarOption > h2 {
+  font-weight: 700;
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+/* ACTIVE styling (If on home tab, home is colored) */
+.navbarOption--active {
+  color: var(--twitter-color);
+}

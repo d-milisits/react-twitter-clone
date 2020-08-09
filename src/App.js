@@ -1,10 +1,20 @@
 import React from 'react';
 import './App.css';
+import Navbar from './components/Navbar';
+import Feed from './components/Feed';
+import Widgets from './components/Widgets';
 
 function App() {
   return (
     <div className="app">
-      <h1>Hi :)</h1>
+      {/* Navbar */}
+      <Navbar />
+
+      {/* Tweet Feed */}
+      <Feed />
+
+      {/* What's Happening */}
+      <Widgets />
     </div>
   );
 }
