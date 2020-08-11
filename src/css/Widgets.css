@@ -1,3 +1,37 @@
 .widgets {
   flex: 0.3;
 }
+
+.widgets__input {
+  display: flex;
+  align-items: center;
+  background-color: #222f3e;
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.widgets__input > input {
+  border: none;
+  background-color: #222f3e;
+  color: #f5f8fa;
+}
+
+.widgets__search {
+  color: gray;
+}
+
+.widgets__widgetContainer {
+  margin-top: 15px;
+  margin-left: 20px;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #222f3e;
+}
+
+.widgets__widgetContainer > h2 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}

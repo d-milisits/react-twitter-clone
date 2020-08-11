@@ -5,10 +5,10 @@
 }
 
 .navbarOption:hover {
-  background-color: #e8f5fe;
+  background-color: #0985e32a;
   border-radius: 30px;
-  color: var(--twitter-color);
-  transition: color 90ms ease-out; 
+  color: #0984e3;
+  transition: all 110ms ease-out; 
 }
 
 /* Apply padding to all icons in component */

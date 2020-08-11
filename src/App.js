@@ -7,13 +7,11 @@ import Widgets from './components/Widgets';
 function App() {
   return (
     <div className="app">
-      {/* Navbar */}
+      {/* Navbar (Home, messages, etc) */}
       <Navbar />
-
-      {/* Tweet Feed */}
+      {/* Tweet Feed (Real user Firebase tweets) */}
       <Feed />
-
-      {/* What's Happening */}
+      {/* What's Happening (Right sidebar) */}
       <Widgets />
     </div>
   );
